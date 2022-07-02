@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Conoce CCH</title>
+
+	<!--favicon-->
+	<title> Conoce CCH </title>
+	<link rel="short cut icon" type="image/x-icon" href="Favicon/favicon_cch.ico">
+	
+	<!-- Carrusel -->
+    <!-- se conecta todo en head, el script y todo además del otro css -->
+    <link rel="stylesheet" href="recursos/lightSlider/lightslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="recursos/lightSlider/lightslider.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" href="CSS/estiloscss.css">
+	
+	 <!-- Carrusel -->
+    <script>
+        $(document).ready(function () {
+            $('#autoWidth').lightSlider({
+                autoWidth: true, //This
+                loop: true, //This
+                auto: true, //This
+                pauseOnHover: true, //This
+                pause: 3000,
+                slideMove: 1, //This
+                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                speed: 800
+            });
+        });
+    </script>
+</head>	
+	
+<body>	
+	
+	<!--Header-->
+	 <header>
+        <div class="header-logo" id="inicio">
+            <div>
+                <img src="IMG/logo_cch_opt.jpg" class="img-logo" title="Logo CCH">
+             </div>
+
+            <div>
+                <p class="titulo"> COLEGIO DE CIENCIAS Y HUMANIDADES </p>
+            </div>
+        </div>
+ 
+	<!-- Menu -->
+
+        <nav>
+            <img src="img/Recurso 2.png" alt="Botón de menú" id="btn-menu" onclick="openMenu()">
+            <ul class="menu">
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="#historia"> UNAM </a></li>
+                <li id="click-drop">
+                    <a class="productos">
+                        CCH
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </a>
+                    <ul id="dropdown">
+						<li> </li><a href="ccha.html">CCH AZCAPOTZALCO</a>
+						<li> </lo><a href="cchn.html">CCH NAUCALPAN</a>
+						<li> </lo><a href="ccho.html">CCH ORIENTE</a>
+						<li> </lo><a href="cchs.html">CCH SUR</a>
+						<li> </lo><a href="cchv.html">CCH VALLEJO</a>
+                    </ul>
+                </li>
+				<li> <a href="#saber mas">Informate más(PDF)</a></li>
+            </ul>
+        </nav>
+        <br>
+
+	<!-- Carrusel -->
+        <div class=".lSSlideOuter .lSPager.lSpg .li .a"></div>
+
+        <div class="contenedor-carrusel">
+            <ul class="carrusel" id="autoWidth">
+
+                <li class="item-carrusel item-a" title="Metales BIDASA">
+                    <div class="car-item"></div>
+                    <img class="car-img" src="IMG/Fotografia-2.jpg">
+                </li>
+                <li class="item-carrusel item-a" title="CCH PARTE 1">
+                    <div class="car-item"></div>
+                    <img class="car-img" src="IMG/Fotografia-1.jpg">
+                </li>
+                <li class="item-carrusel item-a" title="CCH PARTE 1">
+                    <div class="car-item"></div>
+                    <img class="car-img" src="IMG/Fotografia-3.jpg">
+               <li class="item-carrusel item-a" title="CCH PARTE 2">
+                    <div class="car-item"></div>
+                    <img class="car-img" src="IMG/Fotografia-4.jpg">
+                </li>
+				<li class="item-carrusel item-a" title="CCH PARTE 2">
+                    <div class="car-item"></div>
+                    <img class="car-img" src="IMG/Fotografia-5.jpg">
+                </li>
+                </li>
+                </li>
+            </ul>
+        </div>
+	
+    </header>
+ 	<!---  Tarjeta con datos solicitados  -->
+    <div class="tarjetas">
+            <p class="subtitle"> Mosqueda Martínez Wendy 6to semestre Grupo 2603 Diseño y administración web </p>
+        </div>
+	
+		
+    <main>
+		<!---   Caja contenedor 01  -->
+        <div class="caja-major">
+            <h1 align="center" id="historia">Nuestra Historia</h1>
+            <div class="caja-text">
+                <p>
+                   El proyecto del Colegio de Ciencias y Humanidades (CCH) fue aprobado por el Consejo Universitario de la UNAM el 26 de enero de 1971, durante el rectorado de Pablo González Casanova, quien lo consideró como: la creación de un motor permanente de innovación de la enseñanza universitaria y nacional, “el cual deberá ser complementado con esfuerzos sistemáticos que mejoren a lo largo de todo el proceso educativo, nuestros sistemas de evaluación de lo que enseñamos y de lo que aprenden los estudiantes".
+
+					En sus inicios se encuentra haber sido creado para atender una creciente demanda de ingreso a nivel medio superior en la zona metropolitana y al mismo tiempo, para resolver la desvinculación existente entre las diversas escuelas, facultades, institutos y centros de investigación de la UNAM, así como para impulsar la transformación académica de la propia Universidad con una nueva perspectiva curricular y nuevos métodos de enseñanza.
+					<a href="https://www.cch.unam.mx/"> https://www.cch.unam.mx/ </a>
+            </div>
+        </div>
+		
+	<div class="foto-unam">
+            <div>
+                <img src="IMG/foto_unam.jpg" class="foto-final" title="UNAM">
+            </div>
+
+        </div>
+		
+	<div class="video-institucional">
+		
+		<iframe width="800" height="430" src="https://www.youtube.com/embed/iCr9_PNpJ6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</main>
+
+ 	<br>
+     <footer>
+        <div class="major-container">
+            <div class="container01">
+                <h2>Presione alguna de estas imagenes para conocer más</h2>
+                <ul class="info">
+				<a href="https://www.comipems.org.mx/"> <img src="IMG/comipems.png" alt="Convocatoria"></a>
+				<a href="https://www.dgae-siae.unam.mx/index.html"> <img src="IMG/dgae.png" alt="SIAE"></a>
+				<a href="https://www.cch.unam.mx/"> <img src="IMG/cch.jpg" alt="CCH Oficial"></a>
+                   	
+                </ul>
+            </div>
+	<div class="container03">
+
+                <form class="form">
+                    <h2>Formulario de Contacto</h2>
+                    <p type="Nombre:">
+                        <input placeholder="Escriba su nombre aquí">
+                        </input>
+                    </p>
+
+                    <p type="Email:"><input placeholder="Correo electrónico"></input></p>
+                    <p type="Mensaje:"><input placeholder="¡Escríbenos!"></input></p>
+                    <button>Enviar mensaje</button>
+                    <div class="block">
+                        <span class="fa fa-envelope-o"></span> https://www.cch.unam.mx/administrativa
+                    </div>
+                </form>
+
+</body>
+</html>
